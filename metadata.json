@@ -1,0 +1,16 @@
+{
+		"name": "jiha-emacs_orgmode_protocol_adobereader",
+		"version": "0.1.0",
+		"author": "Jim Hansson",
+		"summary": "lets you create links to specific parts of pdf in org-mode",
+		"license": "Apache 2.0",
+		"source": "https://github.com/jimhansson/jiha-emacs_orgmode_protocol_adobereader.git",
+		"project_page": "https://github.com/jimhansson/jiha-emacs_orgmode_protocol_adobereader",
+		"issues_url": "https://github.com/jimhansson/jiha-emacs_orgmode_protocol_adobereader/issues",
+		"dependencies": [
+				{"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+				{"name":"puppetlabs-registry","version_requirement":">= 1.1.0"},
+				{"name":"jiha-emacs_orgmode_protocol","version_requirement":">= 0.1.0"}
+		]
+}
+
