@@ -41,12 +41,12 @@ class emacs_orgmode_protocol_adobereader($reader_version = 'Acrobat Reader DC') 
       require => Package['adobereader', 'emacs'],
       source_permissions => ignore,
       ensure => file,
-      source => 'puppet://modules/emacs_orgmode_protocol_adobereader/files/org-capture.js';    
+      source => 'puppet:///modules/emacs_orgmode_protocol_adobereader/org-capture.js';    
     "C://Program Files (x86)//Adobe//${reader_version}//Reader//Javascripts//org-store-link.js":
       require => Package['adobereader', 'emacs'],
       source_permissions => ignore,
       ensure => file,
-      source => 'puppet://modules/emacs_orgmode_protocol_adobereader/files/org-store-link.js';
+      source => 'puppet:///modules/emacs_orgmode_protocol_adobereader/org-store-link.js';
   }
 
 }
